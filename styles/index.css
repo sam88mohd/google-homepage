@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav-right{
+    float: right;
+}
+
+.nav-top{
+    overflow: hidden;
+}
+
+.nav-top a{
+    float: left;
+    text-align: center;
+    padding: 5px;
+}
+
+.sign{
+    background-color:royalblue;
+    border: none;
+    height: 25px;
+    
+}
+
+.main{
+    width: 500px;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
