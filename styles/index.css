@@ -1,5 +1,4 @@
 section {
-    background-color: blueviolet;
     height: 30em;
     display: flex;
     justify-content: center;
@@ -7,10 +6,10 @@ section {
 }
 
 .main-center {
-    background-color: brown;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: 0 auto;
     width: 500px;
     height: 50%;
@@ -20,12 +19,19 @@ img {
     width: 300px;
 }
 
-.form-main{
-    background-color: burlywood;
+.form-main input{
+    width: 400px;
+    margin: 2em;
 }
 
-.btn-search{
-    margin-top: 0.5em;
+.btn-search {
+    margin: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 5px;;
 }
 
 header {
